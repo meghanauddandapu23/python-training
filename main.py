@@ -5,31 +5,13 @@
 Write your code in this editor and press "Run" button to execute it.
 
 '''
-x=int(input())
-for i in range (1,x+1):
-    if (i%3==0) and (i%5==0):
-        print("Fizz buzz")
-    elif i%5==0:
-        print("buzz")
-    elif(i%3==0):
-        print("fizz")
+x="madam"
+l=0
+r=len(x)-1
+while 1<r:
+    if x[1]==x[r]:
+        l+=-1
+        r-=-1
+        print("palindrome")
     else:
-        print(i)
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+        print("not a palindrome")
